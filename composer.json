@@ -1,0 +1,33 @@
+{
+	"name" : "stinger-soft/d3js-bundle",
+	"type" : "symfony-bundle",
+	"description" : "D3.js Symfony Bundle (http://d3js.org/) including some plugins",
+	"keywords" : [
+		"D3.js",
+		"D3",
+		"graph",
+		"charts"
+	],
+	"homepage" : "http://www.stinger-soft.net",
+	"authors" : [{
+			"name" : "Oliver Kotte",
+			"email" : "oliver.kotte@stinger-soft.net",
+			"homepage" : "http://dev.koddistortion.net",
+			"role" : "Developer"
+		}, {
+			"name" : "Florian Meyer",
+			"email" : "florian.meyer@stinger-soft.net",
+			"role" : "Developer"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"StingerSoft\\D3JsBundle\\" : ""
+		}
+	},
+	"license" : "Apache-2.0",
+	"require" : {
+		"php" : ">=5.3",
+		"symfony/symfony" : "^2.7|^3.0"
+	}
+}
